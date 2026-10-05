@@ -1,0 +1,59 @@
+name: New incident
+description: Submit a new AI agent spending incident for the log
+title: "[Incident]: "
+labels: ["new-incident"]
+body:
+  - type: input
+    id: incident-date
+    attributes:
+      label: Incident date
+      description: When did the incident happen, as precisely as the source allows?
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: 1-2 sentences describing the incident.
+    validations:
+      required: true
+  - type: input
+    id: amount
+    attributes:
+      label: Amount (if stated in source)
+      placeholder: "e.g. $47,316"
+    validations:
+      required: false
+  - type: input
+    id: primary-source
+    attributes:
+      label: Primary source URL
+      description: A link to a primary source (news report, official postmortem, research writeup, or a specific, dated first-hand post) that is live when you file this issue.
+    validations:
+      required: true
+  - type: input
+    id: secondary-source
+    attributes:
+      label: Secondary source URL
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - overspend
+        - wrong-payee/wrong-purchase
+        - manipulated-payment
+        - credential-leak
+        - research-demo
+    validations:
+      required: true
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Disclosure
+      options:
+        - label: The source is public and I am not affiliated with the vendor involved, or I disclose my affiliation.
+          required: true
