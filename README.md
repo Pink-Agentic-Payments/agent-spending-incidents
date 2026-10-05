@@ -6,6 +6,8 @@ Maintained by the team behind Pink Agentic AI Payments (by PinkWallet); entries 
 
 License: CC BY 4.0. Last updated: 2026-10-05.
 
+Also on Hugging Face: https://huggingface.co/datasets/Agentic-Payment/agent-spending-incidents
+
 ## Inclusion criteria
 
 An incident qualifies if it is a publicly reported event, 2023-2026, where an AI agent / LLM-driven automation / AI shopping or coding agent:
