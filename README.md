@@ -2,6 +2,8 @@
 
 A dated, sourced log of publicly reported cases where an AI agent (or LLM-driven automation) spent money it shouldn't have, paid the wrong party, was manipulated into attempting a payment, or leaked payment credentials. Built for researchers, journalists and anyone else who needs concrete, citable examples instead of hypotheticals when discussing the risks of letting AI agents pay.
 
+> **New:** can you make an AI agent overspend? Try our open challenge against the sandbox (test money only): [overspend-challenge](https://github.com/Pink-Agentic-Payments/overspend-challenge)
+
 Maintained by the team behind Pink Agentic AI Payments (by PinkWallet); entries are included on sourcing criteria only, regardless of vendor.
 
 License: CC BY 4.0. Last updated: 2026-10-05.
